@@ -1,1 +1,95 @@
-"body { font-family: sans-serif; background: #f5f5f5; text-align: center; }" 
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    line-height:1.6;
+}
+header{
+    text-align: center;
+    background: linear-gradient(135deg,#2bccb7,#3c9fac);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+header h1{
+    margin: 0;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  /* Section styling */
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    animation: fadeIn 1s ease-in;
+  }
+  
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  h2 {
+    color: #333;
+    
+        display: inline-block;
+        border-bottom: 3px solid transparent;
+        border-image: linear-gradient(135deg, #2bccb7, #3c9fac);
+        border-image-slice: 1;
+        padding-bottom: 5px;
+      }
+      
+  
+  
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  /* Links */
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  #skills li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: #eee;
+    border-radius: 8px;
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  #skills li:hover {
+    transform: scale(1.1);
+    background:linear-gradient(135deg,#2bccb7,#3c9fac);
+    color: white;
+  }
+  .profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;  /* makes it a circle */
+    object-fit: cover;   /* crops neatly */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border: 3px solid white; /* optional for contrast */
+  }
+  
+ 
+  
